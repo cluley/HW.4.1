@@ -38,5 +38,9 @@ int main(int argc, char** argv) {
 		adresses[i].get(output);
 	}
 
+	delete[] ardesses;
+	input.close();
+	output.close();
+
 	return 0;
 }
